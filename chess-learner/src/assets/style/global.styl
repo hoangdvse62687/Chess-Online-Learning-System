@@ -1,0 +1,164 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/lichess.chess.woff2) format("woff2");
+}
+@media only screen and (min-width: 1900px) {
+  .container {
+      max-width: 1125.9375px;
+  }
+}
+@media (min-width: 1264px) {
+  .container {
+      max-width: 1125.9375px;
+  }
+}
+
+div {
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+.theme--light.application {
+  background-color: #fafafa !important;
+}
+
+body, .v-application {
+  font-family: 'Open Sans', sans-serif !important;
+}
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+span, a {
+    text-decoration: none !important;
+}
+.text-black {
+  color: #4d4d4d;
+}
+.text-grey {
+  color: #999999;
+}
+
+
+
+.move {
+  font-family: myFirstFont;
+}
+
+.cg-board-wrap {
+  width: 100% !important;
+  padding-top: 100%;
+}
+
+.cg-board-wrap coords {
+  font-size: 20px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.merida .cg-board piece.pawn.white {
+  background-image: url(../images/chess-man/pawn-white.svg) !important;
+}
+.merida .cg-board piece.bishop.white, .white.bishop {
+  background-image: url(../images/chess-man/bishop-white.svg) !important;
+}
+.merida .cg-board piece.knight.white, .white.knight {
+  background-image: url(../images/chess-man/knight-white.svg) !important;
+}
+.merida .cg-board piece.rook.white, .white.rook {
+background-image: url(../images/chess-man/rook-white.svg) !important;
+}
+.merida .cg-board piece.queen.white, .white.queen {
+  background-image: url(../images/chess-man/queen-white.svg) !important;
+}
+.merida .cg-board piece.king.white, .king.white {
+  background-image: url(../images/chess-man/king-white.svg) !important;
+}
+.merida .cg-board piece.pawn.black {
+  background-image: url(../images/chess-man/pawn-black.svg) !important;
+}
+.merida .cg-board piece.bishop.black {
+  background-image: url(../images/chess-man/bishop-black.svg) !important;
+}
+.merida .cg-board piece.knight.black {
+  background-image: url(../images/chess-man/knight-black.svg) !important;
+}
+.merida .cg-board piece.rook.black {
+  background-image: url(../images/chess-man/rook-black.svg) !important;
+}
+.merida .cg-board piece.queen.black {
+  background-image: url(../images/chess-man/queen-black.svg) !important;
+}
+.merida .cg-board piece.king.black, .king.black {
+  background-image: url(../images/chess-man/king-black.svg) !important;
+}
+
+.blue .cg-board-wrap {
+  background-image: url(../images/chess-man/chessground.svg) !important
+  background-size: contain;
+}
+
+.cg-board {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
+      0 3px 1px -2px rgba(0,0,0,0.2), 
+      0 1px 5px 0 rgba(0,0,0,0.12);
+}
+coord {
+  font-size: 12px
+  color: #fff
+  font-weight: 700
+}
+.cg-board-wrap coords.ranks coord {
+  transform: none !important 
+}
+.cg-board-wrap coords.ranks {
+  right: 0px !important
+}
+.cg-board-wrap coords.files {
+  bottom: 0px !important  
+  text-align: left !important
+}
+.ranks coord:nth-child(2n+1), .files coord:nth-child(2n) {
+  color: #788a94 !important
+}
+.files coord {
+  padding-left: 5px;
+}
+
+.swal2-container {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  padding-right: 0px !important;
+  color: #fafafa;
+}
+
+p {
+  text-align: justify
+}
+.none-box-shadow {
+  box-shadow: none !important
+}

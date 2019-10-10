@@ -1,0 +1,162 @@
+@font-face {
+  font-family: chessfont;
+  src: url(../fonts/lichess.chess.woff2) format("woff2");
+}
+/* for learning-board ============================*/
+.content-area {
+  background-color: rgba(255, 179, 25, 0.07);
+  /* border-color: #fff; */
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 2px;
+}
+.move-history-content,
+.lesson-content, .puzzle-content{
+  background-color: rgba(255, 179, 25, 0.07);
+  /* border-color: #fff; */
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 2px;
+  /* box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12); */
+  overflow: auto;
+}
+
+.move-history-content div {
+  flex-wrap: wrap;
+  display: flex;
+}
+.lesson-area {
+  height: 220px;
+}
+/* for learning-board ============================*/
+.chess-move-history {
+  min-width: 50%;
+}
+.index {
+  flex: 0 0 14%;
+  border-right: 1px solid #d9d9d9;
+  background: #f7f6f5;
+  color: #b3b3b3;
+  justify-content: center;
+  align-content: center;
+  font-size: 15px;
+}
+.move, .il-move, .ex-move {
+  flex: 0 0 43%;
+  font-size: 1.185em;
+  padding-left: 10px;
+  height: 30px;
+  align-content: center;
+  font-size: 18px;
+  font-family: chessfont;
+}
+.move:hover, .il-move:hover, .ex-move:hover {
+  cursor: pointer;
+  background-color: #1b83e4;
+  color: white;
+}
+.current-move, .il-current-move, .ex-current-move {
+  font-weight: bold;
+  background: #d1e6fa;
+  color: #1f1f1f;
+}
+/*for playing page ===========================*/
+/* reset background color for dialog */
+.black,
+.white {
+  background-color: transparent !important;
+  border: unset !important;
+}
+.move-history-content {
+  height: 180px;
+  overflow-x: hidden;
+}
+.review-move-btn-group {
+  height: 35px;
+}
+.move-information, .game-information{
+  height: 240px;
+}
+.review-move-btn-group .v-btn {
+  width: 25%;
+}
+/*for playing page ===========================*/
+@media (min-width: 1904px) {
+  .flex.offset-lg1 {
+    margin-left: 0%;
+  }
+  .flex.lg6 {
+    -ms-flex-preferred-size: 66.66666666666666%;
+    flex-basis: 66.66666666666666%;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 66.66666666666666%;
+  }
+  .lesson-area {
+    height: 350px;
+  }
+  .lesson-content {
+    height: 310px;
+  }
+  .move-history-content {
+    height: 330px;
+  }
+  .move-information {
+    height: 350px;
+  }
+}
+/*for create exercise page ==========================*/
+/*for create lesson page ============================*/
+.btn-castling-group {
+  width: 100%;
+}
+.btn-castling {
+  width: 100px;
+}
+#createBoard {
+  width: 300px;
+}
+.piece-content {
+  display: inline-flex;
+}
+
+.puzzle-content,
+.move-history-content {
+  border-radius: 4px;
+  /* border: 1px solid #ccc; */
+}
+.cg-board-wrap .black, .cg-board-wrap .white, .blue.merida {
+  background-color: transparent !important;
+}
+.depth-2 {
+  background-color: hsla(0, 59%, 85%, 0.85);
+  margin: 5pt 0 5pt 5pt;
+  flex: 0 0 100%;
+}
+.depth-2 > div {
+  flex: 0 0 100%;
+}
+.depth-2 > div > div {
+  color: #c00;
+}
+.depth-3 {
+  background-color: rgba(196, 240, 196, 0.85) !important;
+  color: #080;
+  margin: 5pt 0 5pt 5pt;
+  flex: 0 0 100%;
+}
+.depth-3 > div {
+  width: 100%;
+}
+.move,
+.empty-move, .il-empty-move {
+  flex: 0 0 43%;
+  font-size: 1.185em;
+  padding-left: 10px;
+  height: 30px;
+  align-content: center;
+  font-size: 18px;
+}
+.move {
+  font-family: chessfont;
+}

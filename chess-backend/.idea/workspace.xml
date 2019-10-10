@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/entities/Course.java" line="222" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/ReportController.java" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/utils/EloRatingUtils.java" line="33" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf71be33-19e0-42a5-b1d1-432f8a4f6965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="185" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@chess.cuaqcqteh5y3.ap-southeast-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@chess.cuaqcqteh5y3.ap-southeast-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chessapi" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/sockets/ChessGameSocketHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2635">
+              <caret line="174" column="129" selection-start-line="174" selection-start-column="121" selection-end-line="174" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/jobs/ChessGameJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/GameHistoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/SuggestionAlgorithmService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="93" column="77" lean-forward="true" selection-start-line="93" selection-start-column="77" selection-end-line="93" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#checkCategory#0;class#SuggestionAlgorithmService#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ChessGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>simpleJobT</find>
+      <find>courseSuggestionJobTrigger</find>
+      <find>/review</find>
+      <find>/{</find>
+      <find>executeSuggestionAlgorithm</find>
+      <find>/en</find>
+      <find>/suggestion</find>
+      <find>/enro</find>
+      <find>Last</find>
+      <find>executeUserFilterSuggestionAlgorithm</find>
+      <find>eloId</find>
+      <find>getCourseSuggestion</find>
+      <find>getCourseSuggestion(</find>
+      <find>userId</find>
+      <find>elo</find>
+      <find>required_elo</find>
+      <find>log</find>
+      <find>log.</find>
+      <find>ex.</find>
+      <find>getEloByStockfishLevel</find>
+      <find>suggestion</find>
+      <find>COURSE_STATUS_PUBLISHED</find>
+      <find>?3</find>
+      <find>executeItemFilterSuggestionAlgorithm</find>
+      <find>publish</find>
+      <find>getCourseSuggestionPaginations</find>
+      <find>ADMIN</find>
+      <find>/courses/{id</find>
+      <find>&quot;Select If</find>
+      <find>isUnderThirtyGame</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/exceptions/AcceptedDeniedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ReviewSuggestionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/utils/SuggestionAlgorithmUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/SuggestionAlgorithmUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/UserSuggestionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/UserSimilarSuggestionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/CourseUserFilterData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/schedulers/CourseSuggestionScheduler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/ChessapiApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/quartz.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/CourseSuggestionRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ItemFilterSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/ReviewRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/ReviewService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ItemFilterSuggestionResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/utils/ManualCastUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/security/oauth2/CustomOAuth2UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/NotificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/PredictionEloStockfish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/utils/EloRatingUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/viewmodels/GameHistoryCreateViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/constants/AppMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/constants/EloRatingLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/QuartzConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/SuggestionAlgorithmData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ChessGameMove.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/LessonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/RedisCourseSuggestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/RedisCommonCourseItemFilterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/CommonCourseItemSuggestionRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/SuggestionAlgorithmService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/entities/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/jobs/CourseSuggestionJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/LearningLogRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/LearningLogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/LearningLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ChessGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/sockets/ChessGameSocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/jobs/ChessGameJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/GameHistoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/RedisConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chessapi" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chessapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess-backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-websocket" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ChessapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chessapi.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chess.chessapi.ChessapiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SpringMvcView">
+    <option name="showDoc" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf71be33-19e0-42a5-b1d1-432f8a4f6965" name="Default Changelist" comment="" />
+      <created>1559208367456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559208367456</updated>
+      <workItem from="1559208373091" duration="750000" />
+      <workItem from="1559478547992" duration="497000" />
+      <workItem from="1559485923081" duration="417000" />
+      <workItem from="1559539911975" duration="15285000" />
+      <workItem from="1559565464581" duration="11422000" />
+      <workItem from="1559611458173" duration="37000" />
+      <workItem from="1559628751730" duration="57000" />
+      <workItem from="1559632154467" duration="3583000" />
+      <workItem from="1559657522960" duration="45000" />
+      <workItem from="1559661217360" duration="11744000" />
+      <workItem from="1559705260812" duration="4630000" />
+      <workItem from="1559716460557" duration="8117000" />
+      <workItem from="1559725168559" duration="591000" />
+      <workItem from="1559740923842" duration="8266000" />
+      <workItem from="1559802000317" duration="9286000" />
+      <workItem from="1559825457180" duration="1743000" />
+      <workItem from="1559830476282" duration="11565000" />
+      <workItem from="1559878424224" duration="234000" />
+      <workItem from="1559900750773" duration="91000" />
+      <workItem from="1559912492917" duration="80000" />
+      <workItem from="1559919525166" duration="5193000" />
+      <workItem from="1559981886707" duration="2699000" />
+      <workItem from="1559987600058" duration="446000" />
+      <workItem from="1559991874690" duration="599000" />
+      <workItem from="1559992900155" duration="1241000" />
+      <workItem from="1560062350559" duration="1122000" />
+      <workItem from="1560064821665" duration="323000" />
+      <workItem from="1560067519671" duration="700000" />
+      <workItem from="1560068329801" duration="199000" />
+      <workItem from="1560081186162" duration="163000" />
+      <workItem from="1560088215486" duration="9250000" />
+      <workItem from="1560148340095" duration="3954000" />
+      <workItem from="1560152547362" duration="1308000" />
+      <workItem from="1560156672969" duration="162000" />
+      <workItem from="1560168074838" duration="644000" />
+      <workItem from="1560213875758" duration="868000" />
+      <workItem from="1560214931482" duration="287000" />
+      <workItem from="1560216153377" duration="432000" />
+      <workItem from="1560218384656" duration="208000" />
+      <workItem from="1560349041238" duration="5411000" />
+      <workItem from="1560437272775" duration="2118000" />
+      <workItem from="1560494635906" duration="5217000" />
+      <workItem from="1560513528505" duration="21285000" />
+      <workItem from="1560576501301" duration="3866000" />
+      <workItem from="1560603300147" duration="3756000" />
+      <workItem from="1560616574081" duration="4632000" />
+      <workItem from="1560665948342" duration="3872000" />
+      <workItem from="1560670828586" duration="120000" />
+      <workItem from="1560843650603" duration="4813000" />
+      <workItem from="1560864532620" duration="9601000" />
+      <workItem from="1560927607377" duration="44000" />
+      <workItem from="1560932495266" duration="3624000" />
+      <workItem from="1560950332280" duration="12141000" />
+      <workItem from="1560989807280" duration="3285000" />
+      <workItem from="1561018246447" duration="8820000" />
+      <workItem from="1561034481699" duration="6125000" />
+      <workItem from="1561046574208" duration="9325000" />
+      <workItem from="1561088781158" duration="1238000" />
+      <workItem from="1561090618910" duration="63000" />
+      <workItem from="1561109061242" duration="36000" />
+      <workItem from="1561118760454" duration="5071000" />
+      <workItem from="1561135493736" duration="7050000" />
+      <workItem from="1561182407952" duration="4214000" />
+      <workItem from="1561208617245" duration="812000" />
+      <workItem from="1561272440562" duration="592000" />
+      <workItem from="1561294768291" duration="5740000" />
+      <workItem from="1561306324442" duration="1328000" />
+      <workItem from="1561307725560" duration="333000" />
+      <workItem from="1561308411329" duration="4389000" />
+      <workItem from="1561313979598" duration="91000" />
+      <workItem from="1561382210043" duration="2225000" />
+      <workItem from="1561392501069" duration="2388000" />
+      <workItem from="1561395424908" duration="477000" />
+      <workItem from="1561422169834" duration="114000" />
+      <workItem from="1561448288757" duration="566000" />
+      <workItem from="1561460928235" duration="7339000" />
+      <workItem from="1561472483114" duration="773000" />
+      <workItem from="1561476737449" duration="1307000" />
+      <workItem from="1561479480446" duration="264000" />
+      <workItem from="1561530627897" duration="1877000" />
+      <workItem from="1561553168093" duration="5713000" />
+      <workItem from="1561566411128" duration="1745000" />
+      <workItem from="1561614595052" duration="9108000" />
+      <workItem from="1561626002175" duration="427000" />
+      <workItem from="1561638488925" duration="5514000" />
+      <workItem from="1561653072285" duration="3707000" />
+      <workItem from="1561702976108" duration="6290000" />
+      <workItem from="1561809583703" duration="1433000" />
+      <workItem from="1561976878704" duration="3213000" />
+      <workItem from="1561981344949" duration="487000" />
+      <workItem from="1561987961806" duration="293000" />
+      <workItem from="1562089555802" duration="733000" />
+      <workItem from="1562128440265" duration="1391000" />
+      <workItem from="1562232698142" duration="6551000" />
+      <workItem from="1562239565346" duration="3155000" />
+      <workItem from="1562244591005" duration="80000" />
+      <workItem from="1562327766054" duration="7706000" />
+      <workItem from="1562336743924" duration="865000" />
+      <workItem from="1562337712841" duration="208000" />
+      <workItem from="1562338070642" duration="96000" />
+      <workItem from="1562339072041" duration="357000" />
+      <workItem from="1562341462110" duration="231000" />
+      <workItem from="1562343666043" duration="149000" />
+      <workItem from="1562345808919" duration="3958000" />
+      <workItem from="1562403864821" duration="1137000" />
+      <workItem from="1562407681559" duration="378000" />
+      <workItem from="1562408098999" duration="252000" />
+      <workItem from="1562509591763" duration="2066000" />
+      <workItem from="1562572963807" duration="3513000" />
+      <workItem from="1562592456270" duration="6372000" />
+      <workItem from="1562602633582" duration="1164000" />
+      <workItem from="1562692641414" duration="881000" />
+      <workItem from="1562693817777" duration="1174000" />
+      <workItem from="1562731130710" duration="466000" />
+      <workItem from="1562741984550" duration="495000" />
+      <workItem from="1562743029624" duration="1903000" />
+      <workItem from="1562745640598" duration="49000" />
+      <workItem from="1562746508097" duration="122000" />
+      <workItem from="1562777081996" duration="11332000" />
+      <workItem from="1562803926949" duration="4262000" />
+      <workItem from="1562809932468" duration="2141000" />
+      <workItem from="1562829188191" duration="14069000" />
+      <workItem from="1562845059461" duration="1718000" />
+      <workItem from="1562867360746" duration="156000" />
+      <workItem from="1562916601855" duration="2303000" />
+      <workItem from="1562921968711" duration="204000" />
+      <workItem from="1562923796273" duration="1604000" />
+      <workItem from="1562925598537" duration="1166000" />
+      <workItem from="1563027027033" duration="259000" />
+      <workItem from="1563343287887" duration="828000" />
+      <workItem from="1563417810711" duration="295000" />
+      <workItem from="1563544275021" duration="476000" />
+      <workItem from="1563545829798" duration="151000" />
+      <workItem from="1563889293054" duration="3391000" />
+      <workItem from="1563956089985" duration="448000" />
+      <workItem from="1563987084844" duration="886000" />
+      <workItem from="1564044116238" duration="1435000" />
+      <workItem from="1564047187574" duration="942000" />
+      <workItem from="1564049327999" duration="395000" />
+      <workItem from="1564064014336" duration="284000" />
+      <workItem from="1564124634602" duration="2268000" />
+      <workItem from="1564134380586" duration="2650000" />
+      <workItem from="1564138158320" duration="484000" />
+      <workItem from="1564160471762" duration="390000" />
+      <workItem from="1564161581988" duration="181000" />
+      <workItem from="1564319403011" duration="7382000" />
+      <workItem from="1564332761587" duration="763000" />
+      <workItem from="1564333635473" duration="1025000" />
+      <workItem from="1564336743856" duration="2051000" />
+      <workItem from="1564375599752" duration="7369000" />
+      <workItem from="1564391894360" duration="1196000" />
+      <workItem from="1564411380667" duration="8000" />
+      <workItem from="1564412144541" duration="46000" />
+      <workItem from="1564574834912" duration="2704000" />
+      <workItem from="1564592901231" duration="127000" />
+      <workItem from="1564644059570" duration="146000" />
+      <workItem from="1564738733496" duration="1501000" />
+      <workItem from="1564821844254" duration="688000" />
+      <workItem from="1564982692276" duration="571000" />
+      <workItem from="1564983615277" duration="897000" />
+      <workItem from="1565160762224" duration="6219000" />
+      <workItem from="1565169450743" duration="660000" />
+      <workItem from="1565175462165" duration="143000" />
+      <workItem from="1565180540355" duration="5192000" />
+      <workItem from="1565194326229" duration="3544000" />
+      <workItem from="1565245151102" duration="8747000" />
+      <workItem from="1565265448950" duration="6454000" />
+      <workItem from="1565277644862" duration="3414000" />
+      <workItem from="1565318886828" duration="5584000" />
+      <workItem from="1565338392233" duration="4680000" />
+      <workItem from="1565354597666" duration="10165000" />
+      <workItem from="1565403597415" duration="8012000" />
+      <workItem from="1565417469751" duration="1338000" />
+      <workItem from="1565421115092" duration="999000" />
+      <workItem from="1565423819294" duration="237000" />
+      <workItem from="1565425271021" duration="3764000" />
+      <workItem from="1565441332646" duration="8257000" />
+      <workItem from="1565453195499" duration="2422000" />
+      <workItem from="1565459582105" duration="2333000" />
+      <workItem from="1565500159184" duration="9508000" />
+      <workItem from="1565540589575" duration="178000" />
+      <workItem from="1565545906165" duration="1102000" />
+      <workItem from="1565605640663" duration="847000" />
+      <workItem from="1565608093894" duration="1251000" />
+      <workItem from="1565958083928" duration="4496000" />
+      <workItem from="1566111000046" duration="1251000" />
+      <workItem from="1566206176879" duration="4689000" />
+      <workItem from="1566219703848" duration="137000" />
+      <workItem from="1566292081397" duration="317000" />
+      <workItem from="1566499432368" duration="482000" />
+      <workItem from="1566501269892" duration="5046000" />
+      <workItem from="1566531297819" duration="1510000" />
+      <workItem from="1566533610359" duration="4691000" />
+      <workItem from="1566538463957" duration="1316000" />
+      <workItem from="1566582872728" duration="7312000" />
+      <workItem from="1566592878381" duration="6486000" />
+      <workItem from="1566613825780" duration="5876000" />
+      <workItem from="1566621533674" duration="3670000" />
+      <workItem from="1566721011628" duration="1418000" />
+      <workItem from="1566756795880" duration="1461000" />
+      <workItem from="1566907542637" duration="2692000" />
+      <workItem from="1567003940216" duration="7357000" />
+      <workItem from="1567061200898" duration="5161000" />
+      <workItem from="1567088471734" duration="692000" />
+      <workItem from="1567096095224" duration="4088000" />
+      <workItem from="1567147011699" duration="657000" />
+      <workItem from="1567166387274" duration="641000" />
+      <workItem from="1567184351479" duration="3633000" />
+      <workItem from="1567189722642" duration="78000" />
+      <workItem from="1567232578814" duration="3533000" />
+      <workItem from="1567252156778" duration="5150000" />
+      <workItem from="1567266912416" duration="2992000" />
+      <workItem from="1567320426247" duration="6402000" />
+      <workItem from="1567350835171" duration="2191000" />
+      <workItem from="1567356794782" duration="11189000" />
+      <workItem from="1567403944188" duration="842000" />
+      <workItem from="1567407397230" duration="1562000" />
+      <workItem from="1567410776336" duration="2513000" />
+      <workItem from="1567416919805" duration="82000" />
+      <workItem from="1567425909303" duration="10171000" />
+      <workItem from="1567480343119" duration="13259000" />
+      <workItem from="1567526015955" duration="7879000" />
+      <workItem from="1567535631697" duration="107000" />
+      <workItem from="1567578227191" duration="8020000" />
+      <workItem from="1567586577922" duration="809000" />
+      <workItem from="1567598754603" duration="7281000" />
+      <workItem from="1567613407455" duration="2421000" />
+      <workItem from="1567655029768" duration="17259000" />
+      <workItem from="1567687706141" duration="4498000" />
+      <workItem from="1567696218232" duration="45000" />
+      <workItem from="1567702070600" duration="1799000" />
+      <workItem from="1567704021620" duration="4801000" />
+      <workItem from="1567747697209" duration="496000" />
+      <workItem from="1567753172369" duration="2702000" />
+      <workItem from="1567761594712" duration="939000" />
+      <workItem from="1567775154622" duration="1267000" />
+      <workItem from="1567784508732" duration="908000" />
+      <workItem from="1567834021043" duration="15541000" />
+      <workItem from="1567863531963" duration="7177000" />
+      <workItem from="1567882415086" duration="8007000" />
+      <workItem from="1567920485967" duration="1580000" />
+      <workItem from="1567930448796" duration="3871000" />
+      <workItem from="1567936093810" duration="101000" />
+      <workItem from="1567937911081" duration="2619000" />
+      <workItem from="1567948779124" duration="3915000" />
+      <workItem from="1567956089674" duration="2229000" />
+      <workItem from="1567966426096" duration="7382000" />
+      <workItem from="1567974139093" duration="446000" />
+      <workItem from="1567998654892" duration="1264000" />
+      <workItem from="1568002695247" duration="1199000" />
+      <workItem from="1568092843715" duration="2099000" />
+      <workItem from="1568104830714" duration="2022000" />
+      <workItem from="1568122492224" duration="1004000" />
+      <workItem from="1568131993356" duration="1703000" />
+      <workItem from="1568174125911" duration="1374000" />
+      <workItem from="1568203451280" duration="10503000" />
+      <workItem from="1568219246677" duration="2426000" />
+      <workItem from="1568223984006" duration="8495000" />
+      <workItem from="1568253551154" duration="3651000" />
+      <workItem from="1568266986773" duration="13556000" />
+      <workItem from="1568281017222" duration="230000" />
+      <workItem from="1568301651928" duration="7666000" />
+      <workItem from="1568362497442" duration="193000" />
+      <workItem from="1568431121962" duration="8947000" />
+      <workItem from="1568440783209" duration="492000" />
+      <workItem from="1568447652797" duration="513000" />
+      <workItem from="1568449550831" duration="49000" />
+      <workItem from="1568618013360" duration="260000" />
+      <workItem from="1568722803277" duration="1091000" />
+      <workItem from="1568772021104" duration="253000" />
+      <workItem from="1568776267103" duration="560000" />
+      <workItem from="1568833166673" duration="883000" />
+      <workItem from="1568911712583" duration="230000" />
+      <workItem from="1569080839149" duration="1179000" />
+      <workItem from="1569082973856" duration="1479000" />
+      <workItem from="1569085153798" duration="315000" />
+      <workItem from="1569086031453" duration="809000" />
+      <workItem from="1569308103886" duration="1967000" />
+      <workItem from="1569310283150" duration="7623000" />
+      <workItem from="1569382227075" duration="444000" />
+      <workItem from="1569415277794" duration="322000" />
+      <workItem from="1569425622212" duration="3868000" />
+      <workItem from="1569431741314" duration="168000" />
+      <workItem from="1569564661736" duration="5584000" />
+      <workItem from="1569570470232" duration="2091000" />
+      <workItem from="1569586807952" duration="1433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="881291000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.27458397" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.19288956" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49756098" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49756098" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.502439" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.28744328" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.19288956" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49756098" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49756098" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.502439" side_tool="true" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/chessapi$ChessapiApplication.ic" NAME="ChessapiApplication Coverage Results" MODIFIED="1561308003308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>counter &gt; (isPrediction ? 31 : 30) ? true : false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(isPrediction ? 31 : 30)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.redisCommonCourseItemFilterService.findAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.redisCourseSuggestionService.findAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.redisCourseSuggestionService.find(102L)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.redisCourseSuggestionService.find(10L)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.redisCourseSuggestionService.save(dataOnRedis)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.redisCourseSuggestionService.find()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>suggestionAlgorithmData</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.courseService.getAllListCoursePulishedIds()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>overviewRatingDetailsViewModel.getQuantity()* 100 / courseOverviewViewModel.getTotalQuantityRatings()*100</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/ReviewRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/ReviewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/viewmodels/CoursePaginationViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ItemFilterSuggestionResult.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/UserSuggestionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/GameHistoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/constants/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.1/dc01f54be80f65633de4cac474056691df5f50a0/quartz-2.3.1-sources.jar!/org/quartz/core/JobRunShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="216" column="49" selection-start-line="216" selection-start-column="49" selection-end-line="216" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="205" column="37" lean-forward="true" selection-start-line="205" selection-start-column="37" selection-end-line="205" selection-end-column="37" />
+          <folding>
+            <element signature="e#5384#5385#0" expanded="true" />
+            <element signature="e#5412#5413#0" expanded="true" />
+            <element signature="e#5485#5486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/utils/ManualCastUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="471" column="16" selection-start-line="471" selection-start-column="16" selection-end-line="471" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/security/oauth2/CustomOAuth2UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/PredictionEloStockfish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/viewmodels/GameHistoryCreateViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/constants/AppMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/utils/EloRatingUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/constants/EloRatingLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="221" column="35" selection-start-line="221" selection-start-column="15" selection-end-line="221" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/SuggestionAlgorithmData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/5.1.7.RELEASE/e4a787f2a6f7941174cf6a02aa0388c44affc1ea/spring-context-support-5.1.7.RELEASE-sources.jar!/org/springframework/scheduling/quartz/SimpleTriggerFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+          <folding>
+            <element signature="e#4617#4618#0" expanded="true" />
+            <element signature="e#4660#4661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="68" column="81" lean-forward="true" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.1.8.RELEASE/932e21404936531040f5945d6f4187e4c861be9/spring-data-redis-2.1.8.RELEASE-sources.jar!/org/springframework/data/redis/core/HashOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ChessGameMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/RedisChessGameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/LessonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/CourseUserFilterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/CourseSuggestionRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/RedisCourseSuggestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="90" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/CommonCourseItemSuggestionRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/RedisCommonCourseItemFilterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="106" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/jobs/CourseSuggestionJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="238" column="76" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/entities/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="126" column="60" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/QuartzConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/repositories/LearningLogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/LearningLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="87" column="64" selection-start-line="87" selection-start-column="64" selection-end-line="87" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/LearningLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/GameHistoryCreateResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/controllers/GameHistoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/constants/KFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/sockets/ChessGameSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="174" column="129" selection-start-line="174" selection-start-column="121" selection-end-line="174" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/jobs/ChessGameJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/models/ChessGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/configs/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/GameHistoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chess/chessapi/services/SuggestionAlgorithmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="93" column="77" lean-forward="true" selection-start-line="93" selection-start-column="77" selection-end-line="93" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkCategory#0;class#SuggestionAlgorithmService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|main|chessapi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

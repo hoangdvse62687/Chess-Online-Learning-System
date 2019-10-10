@@ -1,0 +1,6 @@
+import '@/plugins/vuetify.js'
+import '@/plugins/quill.js'
+import '@/plugins/vue-worker'
+import '@/plugins/sweet-alert'
+import '@/plugins/chessboard.js'
+import '@/plugins/agile.js'

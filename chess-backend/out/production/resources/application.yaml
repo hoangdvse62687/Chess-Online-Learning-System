@@ -1,0 +1,58 @@
+server:
+  port: 5000
+spring:
+  datasource:
+    url: jdbc:mysql://chess.cuaqcqteh5y3.ap-southeast-1.rds.amazonaws.com:3306/chessdb?useUnicode=yes&characterEncoding=UTF-8
+    username: admin
+    password: colspassword100
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: chesslearningsystem@gmail.com
+    password: noragamiyato
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 171188493543-k8uk9m3b6g7fdmh6rd5vvlnferk6iscv.apps.googleusercontent.com
+            clientSecret: eWepes-RmxjJWy54VzlrWUIA
+            redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
+            scope:
+              - email
+              - profile
+  redis:
+    host: redis-12435.c83.us-east-1-2.ec2.cloud.redislabs.com
+    port: 12435
+    password: tJj3iBzUftBAwkWAQgDZZDUlffv9iXOQ
+app:
+  auth:
+    tokenSecret: ChessLearningSystem
+    tokenExpirationMsec: 864000000
+  oauth2:
+    # After successfully authenticating with the OAuth2 Provider,
+    # we'll be generating an auth token for the user and sending the token to the
+    # redirectUri mentioned by the frontend client in the /oauth2/authorize request.
+    # We're not using cookies because they won't work well in mobile clients.
+    authorizedRedirectUris:
+      - http://localhost:8084/oauth2/redirect
+  courseSuggestionJob:
+    #one day will trigger to run calculator the suggestion for learner Msec
+    frequency: 86400000

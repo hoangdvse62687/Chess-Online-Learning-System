@@ -1,0 +1,658 @@
+[
+  {
+    "id": 1,
+    "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+    "move": "e4",
+    "preId": null,
+    "content": "",
+    "moveDirection": "e2e4"
+  },
+  {
+    "id": 2,
+    "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "move": "e6",
+    "preId": 1,
+    "content": "",
+    "moveDirection": "e7e6"
+  },
+  {
+    "id": 3,
+    "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+    "move": "d3",
+    "preId": 2,
+    "content": "",
+    "moveDirection": "d2d3"
+  },
+  {
+    "id": 4,
+    "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/3P4/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+    "move": "d5",
+    "preId": 3,
+    "content": "",
+    "moveDirection": "d7d5"
+  },
+  {
+    "id": 5,
+    "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/3P4/PPPN1PPP/R1BQKBNR b KQkq - 1 3",
+    "move": "Nd2",
+    "preId": 4,
+    "content": "",
+    "moveDirection": "b1d2"
+  },
+  {
+    "id": 6,
+    "fen": "rnbqkbnr/pp3ppp/4p3/2pp4/4P3/3P4/PPPN1PPP/R1BQKBNR w KQkq c6 0 4",
+    "move": "c5",
+    "preId": 5,
+    "content": "",
+    "moveDirection": "c7c5"
+  },
+  {
+    "id": 7,
+    "fen": "rnbqkbnr/pp3ppp/4p3/2pp4/4P3/3P1N2/PPPN1PPP/R1BQKB1R b KQkq - 1 4",
+    "move": "Ngf3",
+    "preId": 6,
+    "content": "",
+    "moveDirection": "g1f3"
+  },
+  {
+    "id": 8,
+    "fen": "r1bqkbnr/pp3ppp/2n1p3/2pp4/4P3/3P1N2/PPPN1PPP/R1BQKB1R w KQkq - 2 5",
+    "move": "Nc6",
+    "preId": 7,
+    "content": "",
+    "moveDirection": "b8c6"
+  },
+  {
+    "id": 9,
+    "fen": "r1bqkbnr/pp3ppp/2n1p3/2pp4/4P3/3P1NP1/PPPN1P1P/R1BQKB1R b KQkq - 0 5",
+    "move": "g3",
+    "preId": 8,
+    "content": "The classic pawn formation for the King's Indian Attack: pawns on d3, e4, and g3.",
+    "moveDirection": "g2g3"
+  },
+  {
+    "id": 10,
+    "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1P1P/R1BQKB1R w KQkq - 1 6",
+    "move": "Nf6",
+    "preId": 9,
+    "content": "",
+    "moveDirection": "g8f6"
+  },
+  {
+    "id": 11,
+    "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQK2R b KQkq - 2 6",
+    "move": "Bg2",
+    "preId": 10,
+    "content": "",
+    "moveDirection": "f1g2"
+  },
+  {
+    "id": 12,
+    "fen": "r1bqk2r/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQK2R w KQkq - 3 7",
+    "move": "Be7",
+    "preId": 11,
+    "content": "",
+    "moveDirection": "f8e7"
+  },
+  {
+    "id": 13,
+    "fen": "r1bqk2r/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQ1RK1 b kq - 4 7",
+    "move": "O-O",
+    "preId": 12,
+    "content": "",
+    "moveDirection": "e1g1"
+  },
+  {
+    "id": 14,
+    "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQ1RK1 w - - 5 8",
+    "move": "O-O",
+    "preId": 13,
+    "content": "",
+    "moveDirection": "e8g8"
+  },
+  {
+    "id": 15,
+    "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+    "move": "Re1",
+    "preId": 14,
+    "content": "",
+    "moveDirection": "f1e1"
+  },
+  {
+    "id": 16,
+    "fen": "r1bq1rk1/p3bppp/1pn1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+    "move": "b6",
+    "preId": 15,
+    "content": "Other options are b5 y Dc7.",
+    "moveDirection": "b7b6"
+  },
+  {
+    "id": 17,
+    "fen": "r1bq1rk1/p3bppp/1pn1pn2/2ppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 0 9",
+    "move": "e5",
+    "preId": 16,
+    "content": "The e5 pawn is key as it invades the Black-side of the board and removes a natural defender of the king",
+    "moveDirection": "e4e5"
+  },
+  {
+    "id": 18,
+    "fen": "r1bq1rk1/p2nbppp/1pn1p3/2ppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+    "move": "Nd7",
+    "preId": 17,
+    "content": "",
+    "moveDirection": "f6d7"
+  },
+  {
+    "id": 19,
+    "fen": "r1bq1rk1/p2nbppp/1pn1p3/2ppP3/8/3P1NP1/PPP2PBP/R1BQRNK1 b - - 2 10",
+    "move": "Nf1",
+    "preId": 18,
+    "content": "",
+    "moveDirection": "d2f1"
+  },
+  {
+    "id": 20,
+    "fen": "r2q1rk1/pb1nbppp/1pn1p3/2ppP3/8/3P1NP1/PPP2PBP/R1BQRNK1 w - - 3 11",
+    "move": "Bf7",
+    "preId": 19,
+    "content": "",
+    "moveDirection": "c8b7"
+  },
+  {
+    "id": 21,
+    "fen": "r2q1rk1/pb1nbppp/1pn1p3/2ppP3/7P/3P1NP1/PPP2PB1/R1BQRNK1 b - h3 0 11",
+    "move": "h4",
+    "preId": 20,
+    "content": "",
+    "moveDirection": "h2h4"
+  },
+  {
+    "id": 22,
+    "fen": "r4rk1/pbqnbppp/1pn1p3/2ppP3/7P/3P1NP1/PPP2PB1/R1BQRNK1 w - - 1 12",
+    "move": "Qc7",
+    "preId": 21,
+    "content": "",
+    "moveDirection": "d8c7"
+  },
+  {
+    "id": 23,
+    "fen": "r4rk1/pbqnbppp/1pn1p3/2ppP3/5B1P/3P1NP1/PPP2PB1/R2QRNK1 b - - 2 12",
+    "move": "Bf4",
+    "preId": 22,
+    "content": "",
+    "moveDirection": "c1f4"
+  },
+  {
+    "id": 24,
+    "fen": "r4rk1/pbqnbppp/2n1p3/1pppP3/5B1P/3P1NP1/PPP2PB1/R2QRNK1 w - - 0 13",
+    "move": "b5",
+    "preId": 23,
+    "content": "Black has lost tempi, b5 earlier on was quicker.",
+    "moveDirection": "b6b5"
+  },
+  {
+    "id": 25,
+    "fen": "r4rk1/pbqnbppp/2n1p3/1pppP3/5B1P/3P1NP1/PPP2PBN/R2QR1K1 b - - 1 13",
+    "move": "N1h2",
+    "preId": 24,
+    "content": "",
+    "moveDirection": "f1h2"
+  },
+  {
+    "id": 26,
+    "fen": "r4rk1/pbqnbppp/2n1p3/1pp1P3/3p1B1P/3P1NP1/PPP2PBN/R2QR1K1 w - - 0 14",
+    "move": "d4",
+    "preId": 25,
+    "content": "Give up. the e4 square.",
+    "moveDirection": "d5d4"
+  },
+  {
+    "id": 27,
+    "fen": "r4rk1/pbqnbppp/2n1p3/1pp1P1N1/3p1B1P/3P2P1/PPP2PBN/R2QR1K1 b - - 1 14",
+    "move": "Ng5 !",
+    "preId": 26,
+    "content": "",
+    "moveDirection": "f3g5"
+  },
+  {
+    "id": 28,
+    "fen": "r4rk1/pbqnbpp1/2n1p2p/1pp1P1N1/3p1B1P/3P2P1/PPP2PBN/R2QR1K1 w - - 0 15",
+    "move": "h6",
+    "preId": 27,
+    "content": "",
+    "moveDirection": "h7h6"
+  },
+  {
+    "id": 29,
+    "fen": "r4rk1/pbqnbpp1/2n1p2p/1pp1P1NQ/3p1B1P/3P2P1/PPP2PBN/R3R1K1 b - - 1 15",
+    "move": "Qh5 !",
+    "preId": 28,
+    "content": "White wastes no time with the attack. We'll see this maneuver, the knight heads to g5 to provoke weaknesses and the queen to h5 with the same idea.",
+    "moveDirection": "d1h5"
+  },
+  {
+    "id": 30,
+    "fen": "r4rk1/pbqnbpp1/2n1p3/1pp1P1pQ/3p1B1P/3P2P1/PPP2PBN/R3R1K1 w - - 0 16",
+    "move": "hxg5",
+    "preId": 29,
+    "content": "Otherwise, the white attack would continue with Ng4 looking for sacrifices on h6.",
+    "moveDirection": "h6g5"
+  },
+  {
+    "id": 31,
+    "fen": "r1bqk2r/p3bppp/1pn1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQ1RK1 w kq - 0 8",
+    "move": "b6",
+    "preId": 13,
+    "content": "",
+    "moveDirection": "b7b6"
+  },
+  {
+    "id": 32,
+    "fen": "r1bqk2r/p3bppp/1pn1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b kq - 1 8",
+    "move": "Re1",
+    "preId": 31,
+    "content": "",
+    "moveDirection": "f1e1"
+  },
+  {
+    "id": 33,
+    "fen": "r2qk2r/pb2bppp/1pn1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w kq - 2 9",
+    "move": "Bb7",
+    "preId": 32,
+    "content": "",
+    "moveDirection": "c8b7"
+  },
+  {
+    "id": 34,
+    "fen": "r2qk2r/pb2bppp/1pn1pn2/2pp4/4P3/2PP1NP1/PP1N1PBP/R1BQR1K1 b kq - 0 9",
+    "move": "c3",
+    "preId": 33,
+    "content": "",
+    "moveDirection": "c2c3"
+  },
+  {
+    "id": 35,
+    "fen": "r3k2r/pbq1bppp/1pn1pn2/2pp4/4P3/2PP1NP1/PP1N1PBP/R1BQR1K1 w kq - 1 10",
+    "move": "Qc7",
+    "preId": 34,
+    "content": "with chances for both sides",
+    "moveDirection": "d8c7"
+  },
+  {
+    "id": 36,
+    "fen": "r2qk2r/pb2bppp/1pn1pn2/2ppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 b kq - 0 9",
+    "move": "e5",
+    "preId": 33,
+    "content": "e5 isn't that good when Black hasn't yet castled.",
+    "moveDirection": "e4e5"
+  },
+  {
+    "id": 37,
+    "fen": "r2qk2r/pb1nbppp/1pn1p3/2ppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w kq - 1 10",
+    "move": "Nd7",
+    "preId": 36,
+    "content": "",
+    "moveDirection": "f6d7"
+  },
+  {
+    "id": 38,
+    "fen": "r2qk2r/pb1nbppp/1pn1p3/2ppP3/8/3P1NP1/PPP2PBP/R1BQRNK1 b kq - 2 10",
+    "move": "Nf1",
+    "preId": 37,
+    "content": "",
+    "moveDirection": "d2f1"
+  },
+  {
+    "id": 39,
+    "fen": "r3k2r/pbqnbppp/1pn1p3/2ppP3/8/3P1NP1/PPP2PBP/R1BQRNK1 w kq - 3 11",
+    "move": "Qc7",
+    "preId": 38,
+    "content": "",
+    "moveDirection": "d8c7"
+  },
+  {
+    "id": 40,
+    "fen": "r3k2r/pbqnbppp/1pn1p3/2ppP3/5B2/3P1NP1/PPP2PBP/R2QRNK1 b kq - 4 11",
+    "move": "Bf4",
+    "preId": 39,
+    "content": "",
+    "moveDirection": "c1f4"
+  },
+  {
+    "id": 41,
+    "fen": "r3k2r/pbqnbpp1/1pn1p2p/2ppP3/5B2/3P1NP1/PPP2PBP/R2QRNK1 w kq - 0 12",
+    "move": "h6",
+    "preId": 40,
+    "content": "",
+    "moveDirection": "h7h6"
+  },
+  {
+    "id": 42,
+    "fen": "r3k2r/pbqnbpp1/1pn1p2p/2ppP3/5B1P/3P1NP1/PPP2PB1/R2QRNK1 b kq h3 0 12",
+    "move": "h4",
+    "preId": 41,
+    "content": "",
+    "moveDirection": "h2h4"
+  },
+  {
+    "id": 43,
+    "fen": "2kr3r/pbqnbpp1/1pn1p2p/2ppP3/5B1P/3P1NP1/PPP2PB1/R2QRNK1 w - - 1 13",
+    "move": "O-O-O",
+    "preId": 42,
+    "content": "",
+    "moveDirection": "e8c8"
+  },
+  {
+    "id": 44,
+    "fen": "r4rk1/pbqnbppp/2n1p3/1pppP3/5B1P/3PNNP1/PPP2PB1/R2QR1K1 b - - 1 13",
+    "move": "Ne3",
+    "preId": 24,
+    "content": "",
+    "moveDirection": "f1e3"
+  },
+  {
+    "id": 45,
+    "fen": "r4rk1/pbqnbppp/2n1p3/2ppP3/1p3B1P/3P1NP1/PPP2PBN/R2QR1K1 w - - 0 14",
+    "move": "b4",
+    "preId": 25,
+    "content": "",
+    "moveDirection": "b5b4"
+  },
+  {
+    "id": 46,
+    "fen": "r4rk1/pbqn1ppp/2n1p3/1pp1P1b1/3p1B1P/3P2P1/PPP2PBN/R2QR1K1 w - - 0 15",
+    "move": "Bxg5",
+    "preId": 27,
+    "content": "",
+    "moveDirection": "e7g5"
+  },
+  {
+    "id": 47,
+    "fen": "r4rk1/pbqn1ppp/2n1p3/1pp1P1P1/3p1B2/3P2P1/PPP2PBN/R2QR1K1 b - - 0 15",
+    "move": "hxg5",
+    "preId": 46,
+    "content": "The e5 and g5 pawns restrict Black's defensive possibilities.",
+    "moveDirection": "h4g5"
+  },
+  {
+    "id": 48,
+    "fen": "r4rk1/pbqnbpp1/2n1p3/1pp1P1PQ/3p1B2/3P2P1/PPP2PBN/R3R1K1 b - - 0 16",
+    "move": "hxg5!",
+    "preId": 30,
+    "content": "Opens the h-file, prevents f6 (f6 allows g6) and prepares more sacrifices on f6 or h6.",
+    "moveDirection": "h4g5"
+  },
+  {
+    "id": 49,
+    "fen": "rr4k1/pbqnbpp1/2n1p3/1pp1P1PQ/3p1B2/3P2P1/PPP2PBN/R3R1K1 w - - 1 17",
+    "move": "Rfb8",
+    "preId": 48,
+    "content": "",
+    "moveDirection": "f8b8"
+  },
+  {
+    "id": 50,
+    "fen": "rr4k1/pbqnbpp1/2n1p3/1pp1P1PQ/3p1BN1/3P2P1/PPP2PB1/R3R1K1 b - - 2 17",
+    "move": "Ng4!",
+    "preId": 49,
+    "content": "",
+    "moveDirection": "h2g4"
+  },
+  {
+    "id": 51,
+    "fen": "rr3nk1/pbq1bpp1/2n1p3/1pp1P1PQ/3p1BN1/3P2P1/PPP2PB1/R3R1K1 w - - 3 18",
+    "move": "Nf8",
+    "preId": 50,
+    "content": "",
+    "moveDirection": "d7f8"
+  },
+  {
+    "id": 52,
+    "fen": "rr3nk1/pbq1bpp1/2n1pN2/1pp1P1PQ/3p1B2/3P2P1/PPP2PB1/R3R1K1 b - - 4 18",
+    "move": "Nf6+!",
+    "preId": 51,
+    "content": "Capturing the knight is forced.",
+    "moveDirection": "g4f6"
+  },
+  {
+    "id": 53,
+    "fen": "rr3nk1/pbq2pp1/2n1pb2/1pp1P1PQ/3p1B2/3P2P1/PPP2PB1/R3R1K1 w - - 0 19",
+    "move": "Bxf6",
+    "preId": 52,
+    "content": "gxf6 wasn't much better...you can review that variation by clicking on the red line 18...gxf6.",
+    "moveDirection": "e7f6"
+  },
+  {
+    "id": 54,
+    "fen": "rr3nk1/pbq2pp1/2n1pP2/1pp3PQ/3p1B2/3P2P1/PPP2PB1/R3R1K1 b - - 0 19",
+    "move": "exf6",
+    "preId": 53,
+    "content": "",
+    "moveDirection": "e5f6"
+  },
+  {
+    "id": 55,
+    "fen": "rr3nk1/pbq2pp1/2n2P2/1pp1p1PQ/3p1B2/3P2P1/PPP2PB1/R3R1K1 w - - 0 20",
+    "move": "e5",
+    "preId": 54,
+    "content": "",
+    "moveDirection": "e6e5"
+  },
+  {
+    "id": 56,
+    "fen": "rr3nk1/pbq2pp1/2n2P2/1ppBp1PQ/3p1B2/3P2P1/PPP2P2/R3R1K1 b - - 1 20",
+    "move": "Bd5!",
+    "preId": 55,
+    "content": "The white attack is unstoppable.",
+    "moveDirection": "g2d5"
+  },
+  {
+    "id": 57,
+    "fen": "r3rnk1/pbq2pp1/2n2P2/1ppBp1PQ/3p1B2/3P2P1/PPP2P2/R3R1K1 w - - 2 21",
+    "move": "Re8",
+    "preId": 56,
+    "content": "",
+    "moveDirection": "b8e8"
+  },
+  {
+    "id": 58,
+    "fen": "r3rnk1/pbq2pp1/2n2PP1/1ppBp2Q/3p1B2/3P2P1/PPP2P2/R3R1K1 b - - 0 21",
+    "move": "g6!",
+    "preId": 57,
+    "content": "",
+    "moveDirection": "g5g6"
+  },
+  {
+    "id": 59,
+    "fen": "r2nrnk1/pbq2pp1/5PP1/1ppBp2Q/3p1B2/3P2P1/PPP2P2/R3R1K1 w - - 1 22",
+    "move": "Nd8",
+    "preId": 58,
+    "content": "",
+    "moveDirection": "c6d8"
+  },
+  {
+    "id": 60,
+    "fen": "r2nrnk1/pbq2Pp1/5P2/1ppBp2Q/3p1B2/3P2P1/PPP2P2/R3R1K1 b - - 0 22",
+    "move": "gxf7+",
+    "preId": 59,
+    "content": "Despite the errors, a very instructive game to understand the tactics around the pawn push to e5 and the possible kingside attacks.",
+    "moveDirection": "g6f7"
+  },
+  {
+    "id": 61,
+    "fen": "r4rk1/pbqnbpp1/4p2p/1pp1P1NQ/1n1p1B1P/3P2P1/PPP2PBN/R3R1K1 w - - 2 16",
+    "move": "Nb4",
+    "preId": 29,
+    "content": "",
+    "moveDirection": "c6b4"
+  },
+  {
+    "id": 62,
+    "fen": "r4rk1/pbqnbpp1/4p2p/1pp1P1NQ/1n1p1BNP/3P2P1/PPP2PB1/R3R1K1 b - - 3 16",
+    "move": "Ng4!",
+    "preId": 61,
+    "content": "",
+    "moveDirection": "h2g4"
+  },
+  {
+    "id": 63,
+    "fen": "r4rk1/pbqnbpp1/4p2p/1pp1P1NQ/3p1BNP/3P2P1/PPn2PB1/R3R1K1 w - - 0 17",
+    "move": "Nxc2",
+    "preId": 62,
+    "content": "",
+    "moveDirection": "b4c2"
+  },
+  {
+    "id": 64,
+    "fen": "r4rk1/pbqnbpp1/4p2N/1pp1P1NQ/3p1B1P/3P2P1/PPn2PB1/R3R1K1 b - - 0 17",
+    "move": "Nxh6+!",
+    "preId": 63,
+    "content": "",
+    "moveDirection": "g4h6"
+  },
+  {
+    "id": 65,
+    "fen": "r4rk1/pbqnbp2/4p2p/1pp1P1NQ/3p1B1P/3P2P1/PPn2PB1/R3R1K1 w - - 0 18",
+    "move": "gxh6",
+    "preId": 64,
+    "content": "",
+    "moveDirection": "g7h6"
+  },
+  {
+    "id": 66,
+    "fen": "r4rk1/pbqnbp2/4p2Q/1pp1P1N1/3p1B1P/3P2P1/PPn2PB1/R3R1K1 b - - 0 18",
+    "move": "Qxh6",
+    "preId": 65,
+    "content": "",
+    "moveDirection": "h5h6"
+  },
+  {
+    "id": 67,
+    "fen": "r4rk1/pbqn1p2/4p2Q/1pp1P1b1/3p1B1P/3P2P1/PPn2PB1/R3R1K1 w - - 0 19",
+    "move": "Bxg5",
+    "preId": 66,
+    "content": "",
+    "moveDirection": "e7g5"
+  },
+  {
+    "id": 68,
+    "fen": "r4rk1/pbqn1p2/4p3/1pp1P1Q1/3p1B1P/3P2P1/PPn2PB1/R3R1K1 b - - 0 19",
+    "move": "Qxg5+",
+    "preId": 67,
+    "content": "",
+    "moveDirection": "h6g5"
+  },
+  {
+    "id": 69,
+    "fen": "r4r2/pbqn1p1k/4p3/1pp1P1Q1/3p1B1P/3P2P1/PPn2PB1/R3R1K1 w - - 1 20",
+    "move": "Kh7",
+    "preId": 68,
+    "content": "",
+    "moveDirection": "g8h7"
+  },
+  {
+    "id": 70,
+    "fen": "r4r2/pbqn1p1k/4p3/1pp1P2Q/3p1B1P/3P2P1/PPn2PB1/R3R1K1 b - - 2 20",
+    "move": "Qh5+",
+    "preId": 69,
+    "content": "",
+    "moveDirection": "g5h5"
+  },
+  {
+    "id": 71,
+    "fen": "r4rk1/pbqn1p2/4p3/1pp1P2Q/3p1B1P/3P2P1/PPn2PB1/R3R1K1 w - - 3 21",
+    "move": "Kg8",
+    "preId": 70,
+    "content": "",
+    "moveDirection": "h7g8"
+  },
+  {
+    "id": 72,
+    "fen": "r4rk1/pbqn1p2/4p2B/1pp1P2Q/3p3P/3P2P1/PPn2PB1/R3R1K1 b - - 4 21",
+    "move": "Bh6+-",
+    "preId": 71,
+    "content": "",
+    "moveDirection": "f4h6"
+  },
+  {
+    "id": 73,
+    "fen": "r2r2k1/pbqnbpp1/2n1p3/1pp1P1PQ/3p1B2/3P2P1/PPP2PBN/R3R1K1 w - - 1 17",
+    "move": "Rfd8",
+    "preId": 48,
+    "content": "",
+    "moveDirection": "f8d8"
+  },
+  {
+    "id": 74,
+    "fen": "r2r2k1/pbqnbpp1/2n1p3/1pp1P1PQ/3p1BN1/3P2P1/PPP2PB1/R3R1K1 b - - 2 17",
+    "move": "Ng4",
+    "preId": 73,
+    "content": "",
+    "moveDirection": "h2g4"
+  },
+  {
+    "id": 75,
+    "fen": "r2r1nk1/pbq1bpp1/2n1p3/1pp1P1PQ/3p1BN1/3P2P1/PPP2PB1/R3R1K1 w - - 3 18",
+    "move": "Nf8",
+    "preId": 74,
+    "content": "Another simple but effective move here was Be4.",
+    "moveDirection": "d7f8"
+  },
+  {
+    "id": 76,
+    "fen": "r2r1nk1/pbq1bpp1/2n1p3/1pp1P1PQ/3pBBN1/3P2P1/PPP2P2/R3R1K1 b - - 4 18",
+    "move": "Be4",
+    "preId": 75,
+    "content": "followed by Kg2 and Rh1.",
+    "moveDirection": "g2e4"
+  },
+  {
+    "id": 77,
+    "fen": "r4r1k/pbqnbpp1/4p2N/1pp1P1NQ/3p1B1P/3P2P1/PPn2PB1/R3R1K1 w - - 1 18",
+    "move": "Kh8",
+    "preId": 64,
+    "content": "Test nước đi 1",
+    "moveDirection": "g8h8"
+  },
+  {
+    "id": 78,
+    "fen": "r4r1k/pbqnbpp1/4N2N/1pp1P2Q/3p1B1P/3P2P1/PPn2PB1/R3R1K1 b - - 0 18",
+    "move": "Nxe6",
+    "preId": 77,
+    "content": "Test nước đi 2",
+    "moveDirection": "g5e6"
+  },
+  {
+    "id": 79,
+    "fen": "r1bqk2r/1p2bppp/2n1pn2/p1pp4/4P3/3P1NP1/PPPN1PBP/R1BQ1RK1 w kq a6 0 8",
+    "move": "a5",
+    "preId": 13,
+    "content": "Test nước đi nhánh 2",
+    "moveDirection": "a7a5"
+  },
+  {
+    "id": 80,
+    "fen": "r1bqk2r/1p2bppp/2n1pn2/p1pp4/1P2P3/3P1NP1/P1PN1PBP/R1BQ1RK1 b kq b3 0 8",
+    "move": "b4",
+    "preId": 79,
+    "content": "Test nước đi nhánh 2 - 2",
+    "moveDirection": "b2b4"
+  },
+  {
+    "id": 81,
+    "fen": "r1bqk2r/1p2bppp/2n1pn2/2pp4/1p2P3/3P1NP1/P1PN1PBP/R1BQ1RK1 w kq - 0 9",
+    "move": "axb4",
+    "preId": 80,
+    "content": "Test nước đi nhánh 2 - 3",
+    "moveDirection": "a5b4"
+  },
+  {
+    "id": 82,
+    "fen": "r1bqk2r/1p2bppp/2n1pn2/2pp4/1p2P3/3P1NP1/P1PN1PBP/1RBQ1RK1 b kq - 1 9",
+    "move": "Rb1",
+    "preId": 81,
+    "content": "Test nước đi nhánh 2 - 4",
+    "moveDirection": "a1b1"
+  }
+]
