@@ -2,14 +2,14 @@ server:
   port: 5000
 spring:
   datasource:
-    url: jdbc:mysql://chess.cuaqcqteh5y3.ap-southeast-1.rds.amazonaws.com:3306/chessdb?useUnicode=yes&characterEncoding=UTF-8
-    username: admin
-    password: colspassword100
+    url: jdbc:
+    username: 
+    password: 
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
     username: chesslearningsystem@gmail.com
-    password: noragamiyato
+    password: 
     port: 587
     properties:
       mail:
