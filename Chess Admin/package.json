@@ -16,7 +16,7 @@
     "core-js": "^2.6.5",
     "firebase": "^6.3.5",
     "google-charts": "^2.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0",
     "stylus": "^0.54.6",
     "stylus-loader": "^3.0.2",
